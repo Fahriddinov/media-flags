@@ -12,4 +12,3 @@ darkMode.addEventListener("click", () => {
 })
 
 let search = document.querySelector(".main-input");
-let inputValue = search.value;
