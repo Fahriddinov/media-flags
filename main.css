@@ -97,11 +97,13 @@
 .flags{
     background: #2B3844;
     width: 265px;
-height: 336px;
-margin: 0 0 0 45px;
+    height: 336px;
+    margin: 0 0 0 45px;
+    border-radius: 10px;
 }
 
 .flag{
+    border-radius: 10px 10px 0 0;
     width: 264px;
     height: 160px;
 }
