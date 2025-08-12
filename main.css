@@ -27,17 +27,27 @@
 }
 
 .header-btn {
+    padding: 13px 30px;
     display: flex;
     align-items: center;
-    background-color: transparent;
-    border: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
     gap: 10px;
-    color: #fff;
+    cursor: pointer;
 }
 
 .footer{
     background-color: #202C36;
     height: 800px;
+}
+
+.dark-mode{
+    background-color: #191a1a;
+}
+
+.dark-mode2{
+    background-color: #000000;
 }
 
 
@@ -65,9 +75,6 @@
     border-radius: 5px;
     font-size: 18px;
     color: #fff;
-    background-image: url(image/search.svg);
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 .input-img {
@@ -194,7 +201,8 @@ padding-left: 28px;
 
 @media only screen and (max-width: 1200px) {
     .information{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .flags{
